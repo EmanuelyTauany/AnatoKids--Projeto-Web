@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+header{
+    background-color: #83d6fc;
+    padding: 2px;
+}
+.titulo{
+    color: #ffde59;
+    font-size: 52px;
+    
+}
+
+#subheader{
+    background-color: #afe8ea;
+    padding: 2px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 28px;
+}
+
+#cabeca{
+
+    position: absolute;
+    left: 20px;
+
+}
+
+#ms{
+
+    position:relative;
+    left: 50px;
+
+}
+
+
+
+#mi{
+
+    position: relative;
+    left: 70px;
+
+}
+
+.imagens{
+    width: 400px;
+}
+
+.indice_corpo{
+    display:inline-block;
+}
