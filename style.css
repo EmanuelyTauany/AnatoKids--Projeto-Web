@@ -1,53 +1,208 @@
-body{
-    background-color: white;
-}
-header{
-    background-color: #83d6fc;
-    padding: 2px;
-}
-.titulo{
-    color: #ffde59;
-    font-size: 52px;
+#titulo_cabeca{
+    color:#DBB41B;
+    text-align:center;
+    }
     
-}
-
-#subheader{
-    background-color: #afe8ea;
-    padding: 2px;
-}
-
-.subtitulo{
-    color: white;
-    font-size: 28px;
-}
-
-#cabeca{
-
-    position: absolute;
-    left: 20px;
-
-}
-
-#ms{
-
-    position:relative;
-    left: 50px;
-
-}
-
-
-
-#mi{
-
-    position: relative;
-    left: 70px;
-
-}
-
-.imagens{
-    width: 400px;
-}
-
-.indice_corpo{
-    display:inline-block;
-}
+    .hidden{
+        display:none;
+        
+    }
+    
+    .indice_corpo:hover{
+        display:block;
+    }
+    
+    body{
+        background-color: white;
+    }
+    nav{
+        background-color: #83d6fc;
+        padding: 2px;
+    }
+    
+    ul{
+    float:right;
+    margin-right:20px;
+    }
+    
+    li{
+        display:inline-block;
+        line-height:80px;
+        margin:0 5px;
+    }
+    .titulo{
+        color: #ffde59;
+        font-size: 52px;
+        display:inline-block;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #subheader{
+        background-color: #afe8ea;
+        padding: 2px;
+    }
+    
+    .subtitulo{
+        color: white;
+        font-size: 28px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .letras_inicio{
+        font-size:40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:white;
+        
+    }
+    
+    #cabeca{
+        
+        position:relative;
+        right:50%;
+        left: 50%;
+        transform:translate(-50%, -50%)
+    
+    }
+    
+    #ms{
+    
+        position:relative;
+        left: 50px;
+    
+    }
+    
+    
+    
+    #mi{
+    
+        position: relative;
+        left: 70px;
+    
+    }
+    
+    .imagens{
+        width: 330px;
+        height:330px;
+    }
+    
+    .indice_corpo{
+        display:inline-block;
+    }
+    
+    .cabeca{
+        display: inline-block;
+    }
+    
+    .indices_da_cabeca{
+        display: inline-block;
+    }
+    
+    .icones_nav{
+        height:50px;
+        display:inline-block;
+        
+    }
+    
+    #showVideoButton{
+        background-color:#53c6fc;
+        border-radius:15px;
+        box-shadow:0 5px rgb(106, 143, 245);
+        height:60px;
+        
+        
+    }
+    
+    
+    #showVideoButton:hover{
+        background-color:rgb(50, 112, 205);
+    }
+    
+    #showVideoButton:active{
+        background-color:#53c6fc;
+        box-shadow: 0 5px #5e9eff;
+        transform: translateY(4px); 
+    
+    }
+    
+    #showAudioButton{
+        border-radius:15px;
+        background-color:#53c6fc;
+        box-shadow: 0 5px #5e9eff;
+        height:60px;
+    }
+    
+    #showAudioButton:active{
+        background-color:#53c6fc;
+        box-shadow:0 5px #5e9eff;
+        transform:translateY(4px);
+    }
+    
+    .squares{
+    background-color:#53c6fc;
+    height:200px;
+    width:200px;
+    display:inline-flex;
+    padding:20px;
+    justify-content:center;
+    text-align:center;
+    
+    
+    }
+    
+    
+    
+    .closeButton{
+    border-radius:10px;
+    background-color:red;
+    border-color:rgb(0, 0, 0);
+    color:white;
+    height:40px;
+    }
+    
+    #OptionsButton{
+        border-radius:15px;
+        background-color:#53c6fc;
+        box-shadow:0 5px rgb(120, 120, 255);
+        height:60px;
+        
+    }
+    
+    #OptionsButton:active{
+        
+        background-color:rgb(226, 43, 134);
+        box-shadow:rgb(218, 32, 94);
+        transform:translateY(4px);
+    }
+    
+    #ProfileButton{
+        border-radius:15px;
+        background-color:#53c6fc;
+        box-shadow: 0 5px royalblue;
+    }
+    
+    #ProfileButton:active{
+        background-color:#5e9eff;
+        box-shadow:darkcyan;
+        transform:translateY(4px);
+    }
+    
+    #explicacao{
+        display:inline-block;
+        color:#DBB41B;
+        font-weight:300;
+        font-size:20px;
+    
+    }
+    
+    main{
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        display:flex;
+        right:50%;
+        left:50%;
+    }
+    
+    html{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }

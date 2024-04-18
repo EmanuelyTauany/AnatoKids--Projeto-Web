@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Coração - AnatoKids</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">AnatoKids</label>
+        <ul>
+            <li><button id="showVideoButton">
+                <img class="icones_nav" src="imgs\libras.png">
+               </button></li>
+            <li><button id="showAudioButton">
+                  <img class="icones_nav" src="imgs\simbolo_som.png" height="40">
+                </button></li>
+                <li>
+                  <button id="OptionsButton">
+                   <img src="imgs/botao_de_opcoes.png" height="40">
+                  </button>
+              
+                </li>
+
+                <li>
+                  <button id="ProfileButton">
+                    <img src="imgs/botao_de_perfil.png" height="40">
+                  </button>
+                </li>
+          
+                
+        </ul>
+    </nav>
+    <div id="subheader">
+        <h4 class="subtitulo">
+          Orgãos principais
+        </h4>
+          </div>
+          <div>
+            <h1 class="titulo">
+              Coração
+            </h1>
+              </div>
+          <div class="coracao"> 
+            <img class="coracao" src="imgs\coracao.png">
+           </div>
+           <div class="funcaoc">
+            <p id="explicacao">O coração é como uma bomba mágica dentro do nosso corpo. Ele é um herói que trabalha 
+                o tempo todo para manter nosso corpo funcionando bem. Pense nele como um motor que 
+                nunca para de funcionar!</p>
+
+            <p id="explicacao">A função principal do coração é bombear o sangue. O sangue é como um grupo de super-heróis 
+                que carrega coisas importantes para todas as partes do nosso corpo. Ele leva comida para 
+                as células, leva embora as coisas que não precisamos e até ajuda a nos manter quentinhos.</p>
+                
+            <p id="explicacao">Então, quando você corre, brinca, pula ou faz qualquer coisa divertida, seu coração bombeia
+                 mais rápido para garantir que o sangue chegue a todos os lugares que precisam. E quando 
+                 você está dormindo, ele desacelera um pouco, mas nunca para de trabalhar.</p>
+                
+            <p id="explicacao">Então, o coração é como o capitão de um time incrível, garantindo que todas as partes do 
+                nosso corpo estejam felizes e saudáveis. É por isso que é tão importante cuidar do nosso 
+                coração, comendo alimentos saudáveis e fazendo exercícios, para que ele possa continuar 
+                sendo o super-herói que é!</p>
+           </div>
+
+           <div id="audioContainer" class="hidden">
+            <button id="closeButton1" class="closeButton">
+              X
+            </button>
+            <audio class="audio" controls="controls">
+              <source src="audios\Coracao.mp3" type="audio/mp3">
+            </audio>
+           </div>
+         
+        </div>
+
+           <div id="videoContainer" class="hidden">
+
+            <button id="closeButton2" class="closeButton">
+            X
+            </button>
+            <iframe id="videoFrame" width="320" height="180" src="videos\coracaoSm_Prog001.mp4" frameborder="0" allowfullscreen>
+
+            </iframe>
+           </div>
+    
+           <script src="script.js"></script>
+</body>
+</html>

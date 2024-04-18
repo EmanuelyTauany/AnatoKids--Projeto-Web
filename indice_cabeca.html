@@ -7,16 +7,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav>
         <h2 class="titulo">
           AnatoKids
         </h2>
-    </header>
+        <ul>
+
+          <li>
+            <button id="showVideoButton">
+              <img class="icones_nav" src="imgs\libras.png">
+             </button>
+          </li>
+
+          <li>
+            <button id="showAudioButton">
+              <img class="icones_nav" src="imgs\simbolo_som.png" height="40">
+            </button>
+          </li>
+
+          <li>
+            <button id="OptionsButton">
+              <img src="imgs\botao_de_opcoes.png" height="40">
+            </button>
+          </li>
+
+          <li>
+            <button id="ProfileButton">
+              <img src="imgs\botao_de_perfil.png" height="40">
+            </button>
+            
+          </li>
+
+        </ul>
+          
+        </nav>
     <div id="subheader">
   <h4 class="subtitulo">
     Partes do corpo
   </h4>
     </div>
-    
+     
+    <div class="cabeca">
+     <h1 id="titulo_cabeca">Cabeça</h1> 
+      <img class="cabeca" src="imgs\img1.png">
+
+       <p id="explicacao">
+        Nossa cabeça é como a casa do nosso corpo, que abriga o nosso cérebro!
+        <br>
+        Ele nos ajuda a pensar, falar, lembrar das coisas e sentir nossas emoções.
+        <br>
+        A cabeça é o comandante do nosso corpo, que ajuda a gente a fazer de tudo, brincar,
+        <br>
+        se divertir e viver muito feliz e saudável!
+       </p>
+       
+       <div id="audioContainer" class="hidden">
+        <button id="closeButton1" class="closeButton">
+          X
+        </button>
+       <audio class="audio" controls="controls">
+        <source src="audios\Cabeca.mp3" type="audio/mp3">
+       </audio>
+      </div>
+     
+    </div>
+    <!--<h1 class="indices_da_cabeca"> orelha</h1>!-->
+
+    <div id="videoContainer" class="hidden">
+      <button id="closeButton2" class="closeButton">
+       X
+      </button>
+      <iframe id="videoFrame" width="320" height="180" src="videos\cabecaSm_Prog001.mp4" frameborder="0" allowfullscreen>
+
+      </iframe>
+      
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

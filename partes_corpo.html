@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2 class="titulo">
+          Anatokids
+        </h2>
+
+        <ul>
+         <li>
+            <button id="showVideoButton">
+                <img class="icones_nav" src="imgs\libras.png">
+            </button>
+         </li>
+
+         <li>
+            <button id="showAudioButton">
+                <img class="icones_nav" src="imgs\simbolo_som.png">
+            </button>
+         </li>
+
+         <li>
+            <button id="OptionsButton">
+                <img class="icones_nav" src="imgs/botao_de_opcoes.png" height="40">
+            </button>
+ 
+         </li>
+
+         <li>
+            <button id="ProfileButton">
+                <img class="icones_nav" src="imgs\botao_de_perfil.png" height="40">
+
+            </button>
+         </li>
+        </ul>
+    </nav>
+
+    <figure>
+        <img src="imgs/corpo.png"alt="corpo humano" usemap="#corpo" width="420">
+        <figcaption>
+            Passe o mouse sobre as parte do corpo para ver
+        </figcaption> 
+    </figure>
+
+    <map name="corpo">
+        <area shape="rect" coords="150, 10, 250, 150" href="indice_cabeca.html" alt="cabeca" target="rosto">
+        <area shape="rect" coords="272, 366, 250, 10" href="indice_braco.html" alt="braco" target="braco">
+        <area shape="rect" coords="300, 366, 100, 10" href="indice_perna.html" alt="perna" target="perna">
+    </map>
+
+</body>
+</html>
